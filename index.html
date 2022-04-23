@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Healthy Charlie</title>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+      }
+    </style>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.14.2/matter.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+
+    <script>
+      const firebaseConfig = {
+        apiKey: "AIzaSyD_fIBQPqhouPhcnlFonsBsltHgYRWITPc",
+        authDomain: "healthy-charlie.firebaseapp.com",
+        projectId: "healthy-charlie",
+        storageBucket: "healthy-charlie.appspot.com",
+        messagingSenderId: "1084754663551",
+        appId: "1:1084754663551:web:eb7662e9a8b8eb5f00474a",
+      };
+
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  </head>
+
+  <body>
+    <script src="sketch.js"></script>
+    <script src="Classes/Form.js"></script>
+    <script src="Classes/gameState.js"></script>
+    <script src="Classes/Mode.js"></script>
+  </body>
+</html>
